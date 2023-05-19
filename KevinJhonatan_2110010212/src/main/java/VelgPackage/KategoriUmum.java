@@ -8,21 +8,22 @@ package VelgPackage;
  *
  * @author jvm21
  */
-public class StatusUser {
-    
-    private String Status;
-    
-    public StatusUser() {} //Constructor
-    
-    //Set methods
-    
-    public void setStatus(String Status){
-        this.Status = Status;
+public class KategoriUmum {
+
+    private String Kategori;
+
+    public KategoriUmum (){} //Constructor
+
+
+//Set Methods
+   
+    public void setKategori(String Kategori){
+        this.Kategori = Kategori;
     }
     
-    //Get methods
+//Get Methods
     
-    public String getStatus(){
-        return Status;
+    public String getKategori(){
+        return Kategori;
     }
 }
